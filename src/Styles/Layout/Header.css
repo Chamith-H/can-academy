@@ -1,0 +1,36 @@
+.Header {
+    height: 75px;
+    width: 100%;
+    background-color: #5600c700;
+}
+
+.Align-Header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-Brand img{
+    height: 65px;
+}
+
+.Header-Actions {
+    display: flex;
+    align-items: center;
+}
+
+.Account {
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.955);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Account i {
+    font-size: 23px;
+}

@@ -1,0 +1,6 @@
+.NavLinks a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+    font-family: 'RobotoGeneral';
+}

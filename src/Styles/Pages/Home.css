@@ -1,0 +1,101 @@
+.Hero {
+    height: calc(100vh - 110px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Hero-Contents {
+    
+}
+
+.Hero-Content-Image {
+    display: flex;
+    justify-content: center;
+}
+
+.Hero-Content-Image img{
+    height: 47vh;
+    max-height: 400px;
+}
+
+.Slogan h1 {
+    color: rgba(255, 255, 255, 0.913);
+    font-family: 'RobotoMedium';
+}
+
+.Slogan p {
+    color: rgba(255, 255, 255, 0.793);
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+
+.Slogan button {
+    font-family: 'RobotoGeneral';
+    color: rgb(255, 255, 255);
+    padding-bottom: 0;
+    padding-top: 1px;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: none;
+    background-color: rgb(255, 157, 0);
+    text-shadow: 1px 1px 2px #000000;
+    border-radius: 100px
+}
+
+.Search-Bar form{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 2px;
+    border-radius: 60px;
+}
+
+.Search-Bar input {
+    height: 36px;
+    width: calc(100% - 42px);
+    border-style: none;
+    outline: none;
+}
+
+.Search-Bar input::placeholder {
+    font-size: 17px;
+    color: #989898;
+}
+
+.Search-Bar button {
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(89, 0, 255);
+}
+
+.Counter {
+    margin-top: -10px;
+    display: flex;
+}
+
+.Counter-Section p {
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.653);
+    font-size: 14px;
+}
+
+.Counter-Section h6 {
+    font-family: 'RobotoGeneral';
+    color: rgba(255, 255, 255, 0.826);
+    font-size: 30px;
+}
+
+.Seperater {
+    height: 100%;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.535);
+}
