@@ -5,7 +5,7 @@ import NavLinks from "../Contents/NavLinks";
 
 const Header =()=> {
     return (
-        <div className="Header px-5">
+        <div className="Header px-5 sticky-top">
             <div className="Align-Header px-5">
                 <div className="Header-Brand">
                     <img src={Logo} alt="" />

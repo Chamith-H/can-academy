@@ -1,5 +1,6 @@
 import "../../Styles/Pages/Home.css"
 import HeroContent from "../../Assets/Images/Home/HeroContent.png"
+import Categories from "../../StaticData/Categories"
 
 const Home =()=> {
     return (
@@ -38,6 +39,26 @@ const Home =()=> {
                             </form>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="Main-Categories bg-white px-5">
+                <div className="row gx-3 gy-0 px-5 pt-4 pb-5">
+                    <h1 className="text-center mt-5 mb-4">EXPLORE OUR <span>CATEGORIES</span></h1>
+
+                    {Categories.map((category) => (
+                        <div className="col-3 pt-4">
+                            <div className="Single-Category">
+                                <div className="Category-Image">
+                                    <img src={category.image} alt="" />
+                                </div>
+
+                                <div className="Category-Name py-2">
+                                    <h6 className="text-center">{category.title}</h6>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
