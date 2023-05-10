@@ -1,7 +1,7 @@
 .Header {
     height: 75px;
     width: 100%;
-    background-color: #5600c700;
+    background-color: rgb(48,7,105);
 }
 
 .Align-Header {
@@ -13,7 +13,7 @@
 }
 
 .Header-Brand img{
-    height: 65px;
+    height: 60px;
 }
 
 .Header-Actions {

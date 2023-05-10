@@ -73,7 +73,7 @@
     border-radius: 100%;
     border-style: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 94, 255);
+    background-color: rgb(60, 0, 255);
 }
 
 .Counter {
@@ -100,29 +100,342 @@
     background-color: rgba(255, 255, 255, 0.535);
 }
 
-.Main-Categories h1 {
+.Main-Categories {
+    background-color: rgb(255, 255, 255);
+}
+
+.Main-Categories h2, .Services h2, .Benefits h2, .Home-Final h2{
   font-family: 'RobotoMedium';
+  color: #000000;
+  text-shadow: 2px 2px 1px #0000003b;
 }
 
-.Main-Categories span {
-    color: rgb(45, 169, 0);
-}
-
-.Single-Category {
-    box-shadow: 0px 14px 15px -2px #00000070;
+.Main-Categories span , .Services span, .Benefits span, .Home-Final span{
+    color: rgb(86, 0, 198);
 }
 
 .Category-Image {
-    background-color: rgb(143, 103, 255);
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
 }
 
 .Category-Image img {
-    width: 100%;
+    width: 70%;
 }
 
 .Category-Name h6 {
     font-family: 'RobotoGeneral';
     margin-bottom: 0;
     margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+
+.Services {
+    background-color: #f3efff;
+}
+
+.Service-Image img {
+    width: 80%;
+}
+
+.About-Home-Content h6 {
+    font-family: 'RobotoBold';
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.About-Home-Content p {
+    font-family: 'Roboto';
+    color: black;
+    text-align: justify;
+}
+
+.About-Learn-More {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.About-Home-Content button {
+    font-family: 'RobotoMedium';
+    color: rgb(0, 16, 194);
+    padding-bottom: 0;
+    padding-top: 1px;
+    height: 43px;
+    font-size: 17px;
+    border-style: none;
+    background-color: rgba(152, 83, 242, 0);
+    text-shadow: 2px 2px 1px #00000029;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.About-Home-Content i {
+    font-size: 18px;
+}
+
+.Benefit-Row {
+    position: relative;
+    overflow: hidden;
+}
+
+.Benefit-Background {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.08;
+    width: 90%;
+}
+
+.Benefit-Contents {
+    position: relative;
+    z-index: 5;
+}
+
+.Benefit-Icon h6 {
+    margin-bottom: 0;
+    font-family: 'RobotoBold';
     color: #000000;
+}
+
+.Benefit-Icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Students, .Instructors {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Student-Benefit-Icon {
+    height: 82px;
+    width: 82px;
+    background-color: rgb(250, 244, 255);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(66,60,180);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(66, 60, 180, 0.274);
+    box-shadow: 0px 5px 10px 0px #0000003e;
+}
+
+.Instructor-Benefit-Icon {
+    height: 82px;
+    width: 82px;
+    padding-left: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: rgb(66,60,180);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(66, 60, 180, 0.274);
+    box-shadow: 0px 5px 10px 0px #0000003e;
+}
+
+.Benefit-List li {
+    font-family: 'Roboto';
+    color: #000000;
+}
+
+
+.Students button {
+    font-family: 'RobotoGeneral';
+    color: rgb(255, 255, 255);
+    padding-bottom: 0;
+    padding-top: 1px;
+    height: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: none;
+    background-color: rgb(66,60,180);
+    text-shadow: 1px 1px 2px #000000;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.Instructors button {
+    font-family: 'RobotoMedium';
+    color: rgb(66,60,180);
+    padding-bottom: 0;
+    padding-top: 1px;
+    height: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px #00000035;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(66,60,180);
+}
+
+.Trendings {
+    background-color: rgb(48,7,105);
+    height: 350px;
+}
+
+.Trendings h2 {
+    font-family: 'RobotoMedium';
+    color: hsl(265, 100%, 90%);
+    text-shadow: 2px 2px 1px #000000;
+}
+
+.Trendings span {
+    color: rgb(255, 255, 255);
+}
+
+.Single-Trend {
+    margin-top: -180px;
+    position: relative;
+}
+
+.Single-Trend img {
+    width: 100%;
+    box-shadow: 0px 10px 12px -2px #0000003c;
+}
+
+.Trending-Content  {
+    background-color: #ffffff;
+}
+
+.Trend-Name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.735)
+}
+
+.Trend-Name h6 {
+    font-family: 'RobotoGeneral';
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.Trend-Name p {
+    font-family: 'Roboto';
+    color: #ffffffa4;
+    margin-bottom: 0;
+}
+
+.Ratings {
+    display: flex;
+    gap: 4px;
+}
+
+.Ratings i {
+    font-size: 13px;
+}
+
+.Light-Star i {
+    color: rgb(255, 208, 0);
+}
+
+.Dark-Star i {
+    color: #ffffff72;
+}
+
+.Final-Quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Final-Quote p {
+    font-family: 'Roboto';
+    color: #000000;
+    text-align: justify;
+}
+
+.Final-Image {
+    display: flex;
+    justify-content: end;
+}
+
+.Final-Image img {
+    width: 500px;
+}
+
+.Final-Quote button {
+    font-family: 'RobotoGeneral';
+    color: rgb(255, 255, 255);
+    width: 188px;
+    padding-bottom: 0;
+    padding-top: 1px;
+    height: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-style: none;
+    background-color: rgb(66,60,180);
+    text-shadow: 1px 1px 2px #000000;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.Align-Quote {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #33008527;
+}
+
+.Home-Ending h5 {
+    margin-bottom: 0;
+    font-family: 'Dorif';
+    font-style: italic;
+    text-align: center;
+    color:#000000;
+    text-shadow:1px 1px 1px #d0d0d0;
+}
+
+.Home-Ending p {
+    margin-bottom: 0;
+    font-family: 'RobotoGeneral';
+    color: #00000097;
+}
+
+.Student-Icon, .Instructor-Icon {
+    position: relative;
+}
+
+.Student-Icon img, .Instructor-Icon img {
+    width: 100%;
+}
+
+.Benefits-Head {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: #00000062;
+}
+
+.Benefits-Head {
+    padding-left: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.Benefits-Head h5 {
+    font-family: 'RobotoMedium';
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #000000;
+    font-size: 25px;
 }

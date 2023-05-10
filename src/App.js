@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Layout/Header';
 import Home from './Components/Pages/Home';
+import Footer from './Components/Layout/Footer';
+import Routings from './Components/Layout/Routings';
 
 function App() {
   return (
@@ -11,9 +13,10 @@ function App() {
 
         </div>
       </div>
-      <div className='Page-Aligner'/>
+      {/* <div className='Page-Aligner'/> */}
       <Header/>
-      <Home/>
+      <Routings/>
+      <Footer/>
     </div>
   );
 }

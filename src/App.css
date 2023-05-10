@@ -23,8 +23,13 @@
   src: url('./Assets/Fonts/Roboto-Light.ttf');
 }
 
+@font-face {
+  font-family: 'Dorif';
+  src: url('./Assets/Fonts/DroidSerif-Italic.ttf');
+}
+
 .Page-Aligner {
-  height: 35px;
+  height: 45px;
 }
 
 .Hero-Image {
@@ -40,5 +45,5 @@
 .Align-Hero-Image {
   height: 100%;
   width: 100%;
-  background-color: #29005ed8;
+  background-color: #29005edb;
 }

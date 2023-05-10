@@ -1,0 +1,50 @@
+.Learn-Header {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top:75px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(227, 227, 227);
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Load-Learnings {
+    display: flex;
+}
+
+.Hearn-Bar {
+    position: sticky;
+    top:120px;
+    height: calc(100vh - 120px);
+    width: 290px;
+    background-color: rgb(237, 237, 237);
+}
+
+.Learn-Contents {
+    width: calc(100% - 290px);
+    height: 200vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.Learn-Header h6 {
+    margin-bottom: 0;
+    font-family: 'RobotoGeneral';
+    font-size:15px;
+    color: rgb(48,7,105);
+    text-shadow: 1px 1px 1px #00000026;
+}
+
+.Learn-Navigations button {
+    background-color: rgba(240, 248, 255, 0);
+    border-style: none;
+    margin-left: 25px;
+    font-family: 'RobotoGeneral';
+    font-size:15px;
+    color: rgb(48,7,105);
+    text-shadow: 1px 1px 1px #00000019;
+}
