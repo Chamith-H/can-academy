@@ -1,0 +1,25 @@
+.Login {
+    min-height: calc(100vh - 75px);
+}
+
+.Login-Section {
+    background-color: rgb(255, 255, 255);
+    min-height: calc(100vh - 75px);
+}
+
+.Align-Login-Form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Align-Login-Form h6 {
+    font-size: 15px;
+    font-family: 'RobotoMedium';
+    color: black;
+}
+
+.Align-Login-Form a {
+    color: rgb(74, 9, 164);
+    text-decoration: none;
+}

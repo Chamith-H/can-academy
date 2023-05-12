@@ -1,0 +1,8 @@
+.Submit-Button {
+    width: 100%;
+    height: 40px;
+    border-style: none;
+    background-color: rgb(48,7,105);
+    color: rgb(255, 255, 255);
+    font-family: 'RobotoGeneral';
+}

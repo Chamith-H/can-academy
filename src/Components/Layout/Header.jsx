@@ -16,9 +16,9 @@ const Header =()=> {
                     <NavLinks/>
                 </div>
 
-                <div className="Account">
-                    <i class="bi bi-person-fill"></i>
-                </div>
+                    <div className="Account">
+                        <a href="/login"><i class="bi bi-person-fill"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
