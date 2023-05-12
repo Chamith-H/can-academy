@@ -1,0 +1,36 @@
+.Choose-Type {
+    display: flex;
+    gap: 40px;
+}
+
+.Register-Title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Register-Title i {
+    padding-bottom: 0;
+    margin-top: 5px;
+    font-size: 28px;
+}
+
+.Align-Login-Form h4 {
+    font-family: 'RobotoMedium';
+    margin-bottom: 0;
+    color: black;
+}
+
+.Align-Login-Form p {
+    font-family: 'RobotoGeneral';
+    color: rgb(139, 139, 139);
+    margin-bottom: 0;
+}
+
+.liner {
+    width: 100%;
+    border-top-style: solid;
+    height: 0px;
+    border-width: 1px;
+    border-color: rgb(48,7,105);
+}
