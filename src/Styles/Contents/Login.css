@@ -5,6 +5,8 @@
 .Login-Section {
     background-color: rgb(255, 255, 255);
     min-height: calc(100vh - 75px);
+    display: flex;
+    align-items: center;
 }
 
 .Align-Login-Form {
@@ -22,4 +24,8 @@
 .Align-Login-Form a {
     color: rgb(74, 9, 164);
     text-decoration: none;
+}
+
+.Align-Login-Form img {
+    width: 100%;
 }

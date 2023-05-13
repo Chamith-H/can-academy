@@ -22,7 +22,7 @@
 }
 
 .Align-Login-Form p {
-    font-family: 'RobotoGeneral';
+    font-family: 'Roboto';
     color: rgb(139, 139, 139);
     margin-bottom: 0;
 }
@@ -32,5 +32,5 @@
     border-top-style: solid;
     height: 0px;
     border-width: 1px;
-    border-color: rgb(48,7,105);
+    border-color: rgba(135, 135, 135, 0.427);
 }

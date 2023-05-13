@@ -2,6 +2,7 @@ import "../../Styles/Contents/Login.css"
 import InputField from "../ReUsed/InputField";
 import SubmitButton from "../ReUsed/SubmitButton";
 import Api from "../../Api";
+import LoginImage from "../../Assets/Images/Account/LoginImage.png"
 
 import { useState } from "react";
 
@@ -43,7 +44,20 @@ const Login =()=> {
             <div className="row g-0">
                 <div className="col-6 Login-Section">
                     <div className="Align-Login-Form">
-                        <div className="col-8">
+                        <div className="col-8 py-5">
+                            <div className="Register-Title">
+                                <div>
+                                    <h4>Login</h4>
+                                    <p>Sign in to continue your journey.</p>
+                                </div>
+                                
+                                <i class="bi bi-person-fill-check"></i>
+                            </div>
+
+                            <div className="liner mb-4"></div>
+
+                            <img src={LoginImage} alt="" />
+
                             <form onSubmit={handle_User}>
                                 {inputs.map((input) => (
                                     <InputField
@@ -57,7 +71,7 @@ const Login =()=> {
                                 <SubmitButton Title="Login"/>
                             </form>
 
-                            <h6>New to Can Academy? <a href="/register">Register</a></h6>
+                            <h6 className="mt-2">New to Can Academy? <a href="/register">Register</a></h6>
                         </div>
                     </div>
                 </div>
